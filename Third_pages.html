@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("https://i.imgur.com/tjKPb6x.jpg");
+      background-size: cover;
+      width: "1500" height="1200";
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+
+
+  <header>
+    <img src="image/header.jpg" width="0" height="0" >
+    <h1>Taichung YUANlIN</h1>
+  </header>
+
+  <article>
+    <h2>Taichung YUANlIN</h2>
+    <p>
+      注意到了嗎?
+      這張照片的空間暗藏了一點小巧思喔! 只靠些許燈光點綴，卻能營造出明亮的空間效果，技巧來自最天然的「太陽光」。
+
+      採光是居家空間的靈魂。如何將和煦的陽光引入室內，一直是設計師考量的重點。先從「座向」談起，破曉晨曦時，太陽由東方直直沁入室內；而日暮向晚時，卻有西曬的叨擾。一天當中，唯獨北面與南面的光線最為溫和均勻，此處最宜設置落地大窗。
+
+      「空間」配合光直線前進的特性，取代傳統實牆隔間阻絕光源的缺點，並由北側與南側的陽台營造出空間的延伸感，好似陽光與微風一同在屋內徜徉。「牆面」的部份則採用烤漆、灰玻與鏡面的玻璃，捕捉更多的自然光，增加屋內的明亮性。
+
+      「讓光線來做設計」-貝聿銘
+
+      這句話來自建築界的泰斗- 貝聿銘大師。何不與我們一起讓光線來做設計，讓光線點亮家園呢
+    </p>
+    <button>Like</button>
+  </article>
+
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
